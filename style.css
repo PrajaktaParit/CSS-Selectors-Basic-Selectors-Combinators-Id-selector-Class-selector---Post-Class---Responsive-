@@ -15,10 +15,12 @@
 
 .left-section {
     background-color: rgb(27, 1, 46);
+    grid-column: span 1;
 }
 
 .right-section {
     background-color: rgb(169, 215, 247);
+    grid-column: span 1/ span 2;
 }
 
 .left-content {
