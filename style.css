@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -126,12 +126,17 @@
 .education-grid div {
     font-weight: 800;
 }
-
+body{
+    display: block;
+}
+section{
+    display: block;
+}
 li {
     margin-left: 50px;
 }
 
-@media only screen and(max-width: 674px) {
+@media screen and(max-width: 673px) {
     .main-content {
         grid-template-columns: repeat(1, 1fr);
 
