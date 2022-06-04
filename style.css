@@ -63,13 +63,12 @@ section{
     padding: 1rem;
 }
 .skills-title{
-    font-size: 0.75rem;
+    font-size: 0.75;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 1rem 0.5rem;
+    color: white;
+
 }
 .skill-name{
     font-size: 0.65rem;
@@ -95,7 +94,7 @@ section{
     padding: 00.5rem;
     letter-spacing: 1px;
 }
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 673px) {
 .main-content {
     grid-template-columns: repeat(1,1fr);
 }
