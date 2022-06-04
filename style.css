@@ -54,7 +54,7 @@
 }
 
 .description {
-    font-size: 0.75;
+    font-size: 0.75rem;
     text-align: center;
     padding: 1rem;
     color: aliceblue;
@@ -67,7 +67,7 @@
 }
 
 .skills {
-    font-size: 0.75;
+    font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
     padding: 1rem 0.5rem;
