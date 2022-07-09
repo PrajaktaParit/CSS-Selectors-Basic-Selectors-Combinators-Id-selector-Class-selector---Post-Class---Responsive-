@@ -1,15 +1,12 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family:  sans-serif;
     box-sizing: border-box;
     list-style: none;
     padding: 0;
     margin: 0;
-    color: rgb(0, 0, 0);
     
 }
-body{
-    display: block;
-}
+
 section{
     display: block;
 }
@@ -24,12 +21,13 @@ section{
 }
 .left-section{
     grid-column: span 1;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(31, 6, 78);
+    color:white
     
 }
 .right-section{
     grid-column: span 1 / span 2;
-    background-color: rgb(194, 193, 193);
+    background-color:lavender
     
 }
 .left-content{
@@ -50,6 +48,7 @@ section{
     text-transform: uppercase;
     padding: 0.8rem;
     letter-spacing: 0.02px;
+    margin-top: 20px;
 }
 .designation{
     font-size: 1rem;
@@ -61,6 +60,11 @@ section{
     font-size: 0.75rem;
     text-align: center;
     padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.personal-details{
+    margin-top: 50px;
 }
 .skills{
     font-size: 0.75rem;
@@ -68,6 +72,7 @@ section{
     text-transform: uppercase;
     padding: 1rem 0.5rem;
     color: white;
+    margin-top: 30px;
 
 }
 .skill-name{
@@ -91,8 +96,11 @@ section{
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 00.5rem;
+    padding: 0.5rem;
     letter-spacing: 1px;
+    margin: 15px;
+    background-color: rgb(27, 1, 29);
+    color: white;
 }
 @media screen and (max-width: 673px) {
 .main-content {
